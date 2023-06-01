@@ -16,10 +16,10 @@ const html = `
     <script>
       setTimeout(() => {
         confetti({
-          particleCount: 100,
+          particleCount: 1000,
           spread: 70,
           origin: { y: 0.6 },
-          disableForReducedMotion: true
+          disableForReducedMotion: false
         });
       }, 500);
     </script>
@@ -52,7 +52,7 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from Render!
+      Hello World Node.js
     </section>
   </body>
 </html>
